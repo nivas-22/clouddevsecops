@@ -1,0 +1,49 @@
+site_name: CloudDevSecOps
+site_url: https://yourname.github.io/CloudDevSecOps
+repo_url: https://github.com/yourname/CloudDevSecOps
+repo_name: clouddevops.github.io
+
+theme:
+  name: material
+  logo: assets/images/logo.png
+  favicon: assets/images/favicon.ico
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - toc.integrate
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+  custom_dir: material/theme/overrides
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.highlight
+  - pymdownx.tasklist
+  - pymdownx.details
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - awesome-pages
+  - glightbox
+
+extra_css:
+  - assets/stylesheets/custom.css

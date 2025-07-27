@@ -1,0 +1,8 @@
+/* Override styles */
+.md-typeset h1 {
+  color: #4a90e2;
+}
+
+img {
+  border-radius: 6px;
+}
